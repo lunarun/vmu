@@ -1,2 +1,2 @@
-;import VBotton from './button.vue'
-export default VBotton;
+import VBotton from './button.vue'
+export default VBotton
