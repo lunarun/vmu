@@ -2,7 +2,6 @@
   <div class="vm-whitespace"
     :class="['vm-whitespace-' + size]"
   >
-  <slot></slot>
   </div>
 </template>
 
