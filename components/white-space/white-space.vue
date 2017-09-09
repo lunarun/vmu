@@ -1,8 +1,7 @@
 <template>
   <div class="vm-whitespace"
     :class="['vm-whitespace-' + size]"
-  >
-  </div>
+  ></div>
 </template>
 
 <script>
