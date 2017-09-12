@@ -1,7 +1,7 @@
 <template>
   <a class="vm-button" :disabled="disabled"
     @mousedown="click()"
-    :role="buttonType"
+    role="buttonType"
     :class="[
       type ? 'vm-button-' + type : '',
       size ? 'vm-button-' + size : '',
@@ -27,10 +27,6 @@ export default {
     }
   },
   props: {
-    buttonType: {
-      type: String,
-      default: 'button'
-    },
     type: String,
     size: String,
     disabled: Boolean,
