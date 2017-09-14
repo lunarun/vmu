@@ -21,7 +21,7 @@
 <script>
 export default {
   name: 'VButton',
-  data () {
+  data() {
     return {
       active: false
     }
@@ -42,8 +42,8 @@ export default {
 </script>
 
 <style lang="less">
-  @import '../../style/mixins';
-  @import '../../style/themes/default';
+  @import '../style/mixins';
+  @import '../style/themes/default';
 
   @buttonPrefixCls: vm-button;
   .@{buttonPrefixCls} {
@@ -121,5 +121,4 @@ export default {
     }
   }
 </style>
-
 

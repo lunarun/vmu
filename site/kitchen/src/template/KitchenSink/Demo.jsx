@@ -53,7 +53,7 @@ export default class Demo extends React.Component {
     picked.components.forEach((i) => {
       const meta = i.meta;
       if (meta.filename.split('/')[1] === name) {
-        demoMeta = meta;
+          = meta;
       }
     });
     const demoArr = [];

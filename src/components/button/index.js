@@ -1,5 +1,5 @@
-import Button from './button'
+import VButton from './button'
 
 export {
-  Button
+  VButton
 }
