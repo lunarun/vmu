@@ -1,19 +1,16 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <a href="/button">Button</a>
-    <a href="">List</a>
+    <Button />
   </div>
 </template>
 
 <script>
 import { Button } from './button'
-import { List } from './list'
 export default {
   name: 'hello',
   components: {
-    Button,
-    List
+    Button
   },
   data () {
     return {
@@ -41,7 +38,5 @@ li {
 
 a {
   color: #42b983;
-  display: block;
-  margin-bottom: 10px;
 }
 </style>
