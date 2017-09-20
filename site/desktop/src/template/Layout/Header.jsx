@@ -150,7 +150,7 @@ export default class Header extends React.Component {
               type="menu"
             />
             <Link to={utils.getLocalizedPathname('/', isZhCN)} id="logo">
-              <img alt="logo" src="https://zos.alipayobjects.com/rmsportal/wIjMDnsrDoPPcIV.png" />
+              <img alt="logo" src="https://vue-js.com/public/images/vue.png" />
               <span>{siteTitle}</span>
             </Link>
           </Col>

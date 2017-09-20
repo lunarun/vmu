@@ -47,7 +47,7 @@ module.exports = Object.assign({}, commonConfig, {
       '0.8.x': 'http://08x.mobile.ant.design/',
       '0.9.x': 'http://09x.mobile.ant.design/',
     },
-    siteTitle: 'ANT DESIGN MOBILE',
+    siteTitle: 'VUE UI MOBILE',
   },
   filePathMapper(filePath) {
     if (filePath === '/index.html') {
